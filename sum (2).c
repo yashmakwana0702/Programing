@@ -11,6 +11,12 @@ return sum;
 int main(void)
 {
 int n = 3, sum;
+int i;
+for ( i = 0; i < n; i++)
+{
+    sum = compute_sum(i);
+}
+
 printf("%d\n", n); /* 3 is printed */
 sum = compute_sum(n);
 printf("%d\n", n); /* 3 is printed */
