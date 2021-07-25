@@ -6,7 +6,7 @@ using namespace std;
 
 #define ll long long int
 
-#define FOR(i, a, b) for (long long int i = a; i < b; i++)
+#define FOR(i, a, b) for (long long int i = a; i < b; i++)w
 
 int main()
 {

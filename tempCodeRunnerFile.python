@@ -1,20 +1,15 @@
-N = int(input())
-
-# Get the array 
-numArray1 = list(map(int, input().split()))
-numArray2 = list(map(int, input().split()))
-
-# Write the logic here:
-sumArray = []
-print(numArray1)
-print(numArray2)
-print(sumArray)
-for i in range (0,N):
-    sumArray.append(numArray1[i] + numArray2[i])
-
-
-# Print the sumArray
-for element in sumArray:
-    print(element, end=" ")
+def main():
+    t=int(input())
+    n,k=list(map(int, input().split()))
+    arr=list(map(int, input().split()))
+    print(n,k)
+    print(arr)
     
-print("")
+
+
+
+
+
+
+if __name__=="__main__":
+    main()
